@@ -1,0 +1,65 @@
+* {
+  font-family: century gothic;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.main-container {
+  background: #dfdfdf;
+  height: 100vh;
+}
+.joke {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.6rem;
+  margin-top: 15rem !important;
+  padding: 3rem;
+  border-radius: 46px;
+  background: #e0e0e0;
+  box-shadow: 29px 29px 58px #9d9d9d, -29px -29px 58px #ffffff;
+}
+
+.joke img {
+  height: 10rem;
+  width: auto;
+}
+.joke p {
+  margin-top: 1.5rem;
+  color: black;
+  padding: 2rem;
+  transition: 1s;
+}
+.btn {
+  width: 140px;
+  height: 50px;
+  background: linear-gradient(to top, #fac412, #dbab0d, #c0960b);
+  color: #fff !important;
+  border-radius: 50px !important;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  border: none !important;
+}
+
+.btn span {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: top 0.5s;
+}
+
+.btn-text-one {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
